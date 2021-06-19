@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-cell {
+  background: #efefef;
+  border: 1px solid #fff;
+}
+
+.fill-cell {
+  background: rgba(138, 138, 138);
+}
+
+#controls {
+  display: flex;
+  width: 320px;
+}
